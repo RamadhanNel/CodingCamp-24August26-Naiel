@@ -1,0 +1,347 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1.1 Write the full `index.html` structure": [
+      {
+        "executionId": "b114b00e-1df1-4b3f-9200-fc34d87190c8",
+        "chatSessionId": "sess_b7b05a70-c009-4d1b-8263-bc194cb29f2a",
+        "timestamp": 1787920482726
+      },
+      {
+        "executionId": "b114b00e-1df1-4b3f-9200-fc34d87190c8",
+        "chatSessionId": "sess_b7b05a70-c009-4d1b-8263-bc194cb29f2a",
+        "timestamp": 1787920498663
+      },
+      {
+        "executionId": "b114b00e-1df1-4b3f-9200-fc34d87190c8",
+        "chatSessionId": "sess_b7b05a70-c009-4d1b-8263-bc194cb29f2a",
+        "timestamp": 1787920655956
+      }
+    ],
+    "2.1 Define CSS custom properties and theme switching": [
+      {
+        "executionId": "b114b00e-1df1-4b3f-9200-fc34d87190c8",
+        "chatSessionId": "sess_b7b05a70-c009-4d1b-8263-bc194cb29f2a",
+        "timestamp": 1787920483726
+      },
+      {
+        "executionId": "b114b00e-1df1-4b3f-9200-fc34d87190c8",
+        "chatSessionId": "sess_b7b05a70-c009-4d1b-8263-bc194cb29f2a",
+        "timestamp": 1787920673254
+      },
+      {
+        "executionId": "b114b00e-1df1-4b3f-9200-fc34d87190c8",
+        "chatSessionId": "sess_b7b05a70-c009-4d1b-8263-bc194cb29f2a",
+        "timestamp": 1787921078427
+      }
+    ],
+    "2.2 Implement the responsive grid layout": [
+      {
+        "executionId": "b114b00e-1df1-4b3f-9200-fc34d87190c8",
+        "chatSessionId": "sess_b7b05a70-c009-4d1b-8263-bc194cb29f2a",
+        "timestamp": 1787920484053
+      },
+      {
+        "executionId": "b114b00e-1df1-4b3f-9200-fc34d87190c8",
+        "chatSessionId": "sess_b7b05a70-c009-4d1b-8263-bc194cb29f2a",
+        "timestamp": 1787920682556
+      },
+      {
+        "executionId": "b114b00e-1df1-4b3f-9200-fc34d87190c8",
+        "chatSessionId": "sess_b7b05a70-c009-4d1b-8263-bc194cb29f2a",
+        "timestamp": 1787921123295
+      }
+    ],
+    "2.3 Style individual components": [
+      {
+        "executionId": "b114b00e-1df1-4b3f-9200-fc34d87190c8",
+        "chatSessionId": "sess_b7b05a70-c009-4d1b-8263-bc194cb29f2a",
+        "timestamp": 1787920484294
+      },
+      {
+        "executionId": "b114b00e-1df1-4b3f-9200-fc34d87190c8",
+        "chatSessionId": "sess_b7b05a70-c009-4d1b-8263-bc194cb29f2a",
+        "timestamp": 1787921134717
+      },
+      {
+        "executionId": "b114b00e-1df1-4b3f-9200-fc34d87190c8",
+        "chatSessionId": "sess_b7b05a70-c009-4d1b-8263-bc194cb29f2a",
+        "timestamp": 1787921242464
+      }
+    ],
+    "3. Checkpoint — Open `index.html` in a browser": [
+      {
+        "executionId": "b114b00e-1df1-4b3f-9200-fc34d87190c8",
+        "chatSessionId": "sess_b7b05a70-c009-4d1b-8263-bc194cb29f2a",
+        "timestamp": 1787920484463
+      },
+      {
+        "executionId": "b114b00e-1df1-4b3f-9200-fc34d87190c8",
+        "chatSessionId": "sess_b7b05a70-c009-4d1b-8263-bc194cb29f2a",
+        "timestamp": 1787921259648
+      },
+      {
+        "executionId": "b114b00e-1df1-4b3f-9200-fc34d87190c8",
+        "chatSessionId": "sess_b7b05a70-c009-4d1b-8263-bc194cb29f2a",
+        "timestamp": 1787921265821
+      }
+    ],
+    "4.1 Create the IIFE wrapper and `storage` module": [
+      {
+        "executionId": "b114b00e-1df1-4b3f-9200-fc34d87190c8",
+        "chatSessionId": "sess_b7b05a70-c009-4d1b-8263-bc194cb29f2a",
+        "timestamp": 1787920484685
+      },
+      {
+        "executionId": "b114b00e-1df1-4b3f-9200-fc34d87190c8",
+        "chatSessionId": "sess_b7b05a70-c009-4d1b-8263-bc194cb29f2a",
+        "timestamp": 1787920692076
+      },
+      {
+        "executionId": "b114b00e-1df1-4b3f-9200-fc34d87190c8",
+        "chatSessionId": "sess_b7b05a70-c009-4d1b-8263-bc194cb29f2a",
+        "timestamp": 1787921078540
+      }
+    ],
+    "5.1 Write the `theme` module": [
+      {
+        "executionId": "b114b00e-1df1-4b3f-9200-fc34d87190c8",
+        "chatSessionId": "sess_b7b05a70-c009-4d1b-8263-bc194cb29f2a",
+        "timestamp": 1787920484821
+      },
+      {
+        "executionId": "b114b00e-1df1-4b3f-9200-fc34d87190c8",
+        "chatSessionId": "sess_b7b05a70-c009-4d1b-8263-bc194cb29f2a",
+        "timestamp": 1787921141162
+      },
+      {
+        "executionId": "b114b00e-1df1-4b3f-9200-fc34d87190c8",
+        "chatSessionId": "sess_b7b05a70-c009-4d1b-8263-bc194cb29f2a",
+        "timestamp": 1787921243003
+      }
+    ],
+    "6.1 Write the `clock` module": [
+      {
+        "executionId": "b114b00e-1df1-4b3f-9200-fc34d87190c8",
+        "chatSessionId": "sess_b7b05a70-c009-4d1b-8263-bc194cb29f2a",
+        "timestamp": 1787920484978
+      },
+      {
+        "executionId": "b114b00e-1df1-4b3f-9200-fc34d87190c8",
+        "chatSessionId": "sess_b7b05a70-c009-4d1b-8263-bc194cb29f2a",
+        "timestamp": 1787921297622
+      },
+      {
+        "executionId": "b114b00e-1df1-4b3f-9200-fc34d87190c8",
+        "chatSessionId": "sess_b7b05a70-c009-4d1b-8263-bc194cb29f2a",
+        "timestamp": 1787921765875
+      }
+    ],
+    "7.1 Write the `greeting` module": [
+      {
+        "executionId": "b114b00e-1df1-4b3f-9200-fc34d87190c8",
+        "chatSessionId": "sess_b7b05a70-c009-4d1b-8263-bc194cb29f2a",
+        "timestamp": 1787920485201
+      },
+      {
+        "executionId": "b114b00e-1df1-4b3f-9200-fc34d87190c8",
+        "chatSessionId": "sess_b7b05a70-c009-4d1b-8263-bc194cb29f2a",
+        "timestamp": 1787921298806
+      },
+      {
+        "executionId": "b114b00e-1df1-4b3f-9200-fc34d87190c8",
+        "chatSessionId": "sess_b7b05a70-c009-4d1b-8263-bc194cb29f2a",
+        "timestamp": 1787921766648
+      }
+    ],
+    "8.1 Write the `timer` module — state, display, and start/stop/reset": [
+      {
+        "executionId": "b114b00e-1df1-4b3f-9200-fc34d87190c8",
+        "chatSessionId": "sess_b7b05a70-c009-4d1b-8263-bc194cb29f2a",
+        "timestamp": 1787920485427
+      },
+      {
+        "executionId": "b114b00e-1df1-4b3f-9200-fc34d87190c8",
+        "chatSessionId": "sess_b7b05a70-c009-4d1b-8263-bc194cb29f2a",
+        "timestamp": 1787921299796
+      },
+      {
+        "executionId": "b114b00e-1df1-4b3f-9200-fc34d87190c8",
+        "chatSessionId": "sess_b7b05a70-c009-4d1b-8263-bc194cb29f2a",
+        "timestamp": 1787921768094
+      }
+    ],
+    "9. Checkpoint — Verify timer behaviour in browser": [
+      {
+        "executionId": "b114b00e-1df1-4b3f-9200-fc34d87190c8",
+        "chatSessionId": "sess_b7b05a70-c009-4d1b-8263-bc194cb29f2a",
+        "timestamp": 1787920485561
+      },
+      {
+        "executionId": "b114b00e-1df1-4b3f-9200-fc34d87190c8",
+        "chatSessionId": "sess_b7b05a70-c009-4d1b-8263-bc194cb29f2a",
+        "timestamp": 1787921781263
+      },
+      {
+        "executionId": "b114b00e-1df1-4b3f-9200-fc34d87190c8",
+        "chatSessionId": "sess_b7b05a70-c009-4d1b-8263-bc194cb29f2a",
+        "timestamp": 1787921790530
+      }
+    ],
+    "10.1 Write the `todoList` module — core data operations": [
+      {
+        "executionId": "b114b00e-1df1-4b3f-9200-fc34d87190c8",
+        "chatSessionId": "sess_b7b05a70-c009-4d1b-8263-bc194cb29f2a",
+        "timestamp": 1787920485718
+      },
+      {
+        "executionId": "b114b00e-1df1-4b3f-9200-fc34d87190c8",
+        "chatSessionId": "sess_b7b05a70-c009-4d1b-8263-bc194cb29f2a",
+        "timestamp": 1787921300195
+      },
+      {
+        "executionId": "b114b00e-1df1-4b3f-9200-fc34d87190c8",
+        "chatSessionId": "sess_b7b05a70-c009-4d1b-8263-bc194cb29f2a",
+        "timestamp": 1787921768982
+      }
+    ],
+    "10.7 Write the `todoList` module — render and sort": [
+      {
+        "executionId": "b114b00e-1df1-4b3f-9200-fc34d87190c8",
+        "chatSessionId": "sess_b7b05a70-c009-4d1b-8263-bc194cb29f2a",
+        "timestamp": 1787920485851
+      },
+      {
+        "executionId": "b114b00e-1df1-4b3f-9200-fc34d87190c8",
+        "chatSessionId": "sess_b7b05a70-c009-4d1b-8263-bc194cb29f2a",
+        "timestamp": 1787921801882
+      },
+      {
+        "executionId": "b114b00e-1df1-4b3f-9200-fc34d87190c8",
+        "chatSessionId": "sess_b7b05a70-c009-4d1b-8263-bc194cb29f2a",
+        "timestamp": 1787921952781
+      }
+    ],
+    "11.1 Write the `quickLinks` module": [
+      {
+        "executionId": "b114b00e-1df1-4b3f-9200-fc34d87190c8",
+        "chatSessionId": "sess_b7b05a70-c009-4d1b-8263-bc194cb29f2a",
+        "timestamp": 1787920486015
+      },
+      {
+        "executionId": "b114b00e-1df1-4b3f-9200-fc34d87190c8",
+        "chatSessionId": "sess_b7b05a70-c009-4d1b-8263-bc194cb29f2a",
+        "timestamp": 1787921803466
+      },
+      {
+        "executionId": "b114b00e-1df1-4b3f-9200-fc34d87190c8",
+        "chatSessionId": "sess_b7b05a70-c009-4d1b-8263-bc194cb29f2a",
+        "timestamp": 1787922023818
+      }
+    ],
+    "12.1 Add the bootstrap call sequence": [
+      {
+        "executionId": "b114b00e-1df1-4b3f-9200-fc34d87190c8",
+        "chatSessionId": "sess_b7b05a70-c009-4d1b-8263-bc194cb29f2a",
+        "timestamp": 1787920486164
+      },
+      {
+        "executionId": "b114b00e-1df1-4b3f-9200-fc34d87190c8",
+        "chatSessionId": "sess_b7b05a70-c009-4d1b-8263-bc194cb29f2a",
+        "timestamp": 1787922031972
+      },
+      {
+        "executionId": "b114b00e-1df1-4b3f-9200-fc34d87190c8",
+        "chatSessionId": "sess_b7b05a70-c009-4d1b-8263-bc194cb29f2a",
+        "timestamp": 1787922064019
+      }
+    ],
+    "13. Checkpoint — Full smoke test in browser": [
+      {
+        "executionId": "b114b00e-1df1-4b3f-9200-fc34d87190c8",
+        "chatSessionId": "sess_b7b05a70-c009-4d1b-8263-bc194cb29f2a",
+        "timestamp": 1787920486295
+      },
+      {
+        "executionId": "b114b00e-1df1-4b3f-9200-fc34d87190c8",
+        "chatSessionId": "sess_b7b05a70-c009-4d1b-8263-bc194cb29f2a",
+        "timestamp": 1787922072246
+      },
+      {
+        "executionId": "b114b00e-1df1-4b3f-9200-fc34d87190c8",
+        "chatSessionId": "sess_b7b05a70-c009-4d1b-8263-bc194cb29f2a",
+        "timestamp": 1787922077695
+      }
+    ],
+    "1. Create the HTML scaffold": [
+      {
+        "executionId": "b114b00e-1df1-4b3f-9200-fc34d87190c8",
+        "chatSessionId": "sess_b7b05a70-c009-4d1b-8263-bc194cb29f2a",
+        "timestamp": 1787920658879
+      }
+    ],
+    "4. Implement `js/script.js` — outer IIFE and `storage` module": [
+      {
+        "executionId": "b114b00e-1df1-4b3f-9200-fc34d87190c8",
+        "chatSessionId": "sess_b7b05a70-c009-4d1b-8263-bc194cb29f2a",
+        "timestamp": 1787921078723
+      }
+    ],
+    "2. Implement the CSS layer": [
+      {
+        "executionId": "b114b00e-1df1-4b3f-9200-fc34d87190c8",
+        "chatSessionId": "sess_b7b05a70-c009-4d1b-8263-bc194cb29f2a",
+        "timestamp": 1787921242595
+      }
+    ],
+    "5. Implement the `theme` module": [
+      {
+        "executionId": "b114b00e-1df1-4b3f-9200-fc34d87190c8",
+        "chatSessionId": "sess_b7b05a70-c009-4d1b-8263-bc194cb29f2a",
+        "timestamp": 1787921243175
+      }
+    ],
+    "6. Implement the `clock` module": [
+      {
+        "executionId": "b114b00e-1df1-4b3f-9200-fc34d87190c8",
+        "chatSessionId": "sess_b7b05a70-c009-4d1b-8263-bc194cb29f2a",
+        "timestamp": 1787921767589
+      }
+    ],
+    "7. Implement the `greeting` module": [
+      {
+        "executionId": "b114b00e-1df1-4b3f-9200-fc34d87190c8",
+        "chatSessionId": "sess_b7b05a70-c009-4d1b-8263-bc194cb29f2a",
+        "timestamp": 1787921768432
+      }
+    ],
+    "8. Implement the `timer` module": [
+      {
+        "executionId": "b114b00e-1df1-4b3f-9200-fc34d87190c8",
+        "chatSessionId": "sess_b7b05a70-c009-4d1b-8263-bc194cb29f2a",
+        "timestamp": 1787921769452
+      }
+    ],
+    "10. Implement the `todoList` module": [
+      {
+        "executionId": "b114b00e-1df1-4b3f-9200-fc34d87190c8",
+        "chatSessionId": "sess_b7b05a70-c009-4d1b-8263-bc194cb29f2a",
+        "timestamp": 1787921953268
+      }
+    ],
+    "11. Implement the `quickLinks` module": [
+      {
+        "executionId": "b114b00e-1df1-4b3f-9200-fc34d87190c8",
+        "chatSessionId": "sess_b7b05a70-c009-4d1b-8263-bc194cb29f2a",
+        "timestamp": 1787922024493
+      }
+    ],
+    "12. Wire everything together in the `DOMContentLoaded` bootstrap": [
+      {
+        "executionId": "b114b00e-1df1-4b3f-9200-fc34d87190c8",
+        "chatSessionId": "sess_b7b05a70-c009-4d1b-8263-bc194cb29f2a",
+        "timestamp": 1787922064441
+      }
+    ]
+  }
+}

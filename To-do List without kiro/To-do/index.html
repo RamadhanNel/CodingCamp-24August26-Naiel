@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life Dashboard - ZZZ Edition</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="scanlines"></div>
+    
+    <div class="theme-control">
+        <span class="theme-label">SYS_THEME</span>
+        <label class="switch">
+            <input type="checkbox" id="theme-toggle">
+            <span class="slider"></span>
+        </label>
+    </div>
+    
+    <div class="dashboard-container">
+        
+        <!-- HEADER -->
+        <header class="card header-card zzz-border">
+            <div class="header-glitch">
+                <h1 id="time-display">00:00:00</h1>
+            </div>
+            <p id="date-display" class="highlight-text">Day, Month DD, YYYY</p>
+            <h2 class="greeting-box">
+                <span id="greeting-text">GOOD MORNING,</span> 
+                <input type="text" id="name-input" placeholder="PROXY_NAME" autocomplete="off">
+            </h2>
+        </header>
+
+        <!-- FOCUS TIMER -->
+        <section class="card timer-card zzz-border">
+            <div class="card-header">
+                <h3>FOCUS_SYSTEM</h3>
+                <span id="mode-badge" class="badge work-mode">WORK MODE</span>
+            </div>
+            
+            <div class="timer-display">
+                <span id="minutes">25</span><span class="blink">:</span><span id="seconds">00</span>
+            </div>
+            
+            <div class="timer-controls">
+                <button id="timer-start" class="zzz-btn primary">ENGAGE</button>
+                <button id="timer-stop" class="zzz-btn danger">HALT</button>
+                <button id="timer-reset" class="zzz-btn secondary">RESET</button>
+            </div>
+            
+            <div class="timer-settings">
+                <div class="setting-group">
+                    <label for="work-input">Work (min):</label>
+                    <input type="number" id="work-input" value="25" min="1" step="1">
+                </div>
+                <div class="setting-group">
+                    <label for="break-input">Break (min):</label>
+                    <input type="number" id="break-input" value="5" min="1" step="1">
+                </div>
+            </div>
+        </section>
+
+        <!-- TASKS & PROGRESS BAR -->
+        <section class="card task-card zzz-border">
+            <div class="card-header">
+                <h3>COMMISSION_LIST</h3>
+            </div>
+            <div class="task-inputs">
+                <input type="text" id="task-input" placeholder="Enter new commission...">
+                <button id="task-add" class="zzz-btn primary">ADD</button>
+                <button id="task-sort" class="zzz-btn secondary">SORT</button>
+            </div>
+            
+            <ul id="task-list"></ul>
+
+            <!-- ANIMATED PROGRESS BAR -->
+            <div class="progress-container">
+                <div class="progress-header">
+                    <span>COMMISSION PROGRESS</span>
+                    <span id="progress-text">0%</span>
+                </div>
+                <div class="progress-bar-bg">
+                    <div id="progress-bar-fill" class="progress-bar-fill"></div>
+                </div>
+                <div class="progress-stats">
+                    Completed: <span id="stat-completed">0</span> / <span id="stat-total">0</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- CALENDAR -->
+        <section class="card calendar-card zzz-border">
+            <div class="card-header">
+                <h3 id="cal-month-year">CALENDAR</h3>
+                <div class="cal-nav">
+                    <button id="cal-prev" class="zzz-btn secondary sm">&lt;</button>
+                    <button id="cal-next" class="zzz-btn secondary sm">&gt;</button>
+                </div>
+            </div>
+            <div class="cal-grid cal-weekdays">
+                <div>Su</div><div>Mo</div><div>Tu</div><div>We</div><div>Th</div><div>Fr</div><div>Sa</div>
+            </div>
+            <div id="cal-days" class="cal-grid cal-days-grid"></div>
+        </section>
+
+        <!-- WEATHER -->
+        <section class="card weather-card zzz-border">
+            <div class="card-header">
+                <h3>ATMOSPHERE_DATA</h3>
+                <button id="weather-refresh" class="zzz-btn secondary sm">RELOAD</button>
+            </div>
+            <div class="weather-content">
+                <div class="weather-temp" id="weather-temp">--°C</div>
+                <div class="weather-info">
+                    <div id="weather-status" class="highlight-text">LOADING...</div>
+                    <div id="weather-location" class="weather-sub">Detecting Region...</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- QUICK LINKS -->
+        <section class="card link-card zzz-border">
+            <div class="card-header">
+                <h3>H.D.D._QUICK_LINKS</h3>
+            </div>
+            <div class="link-inputs">
+                <input type="text" id="link-name" placeholder="Target Node">
+                <input type="text" id="link-url" placeholder="URL (e.g. google.com)">
+                <button id="link-add" class="zzz-btn primary">BIND</button>
+            </div>
+            <div id="link-list" class="link-grid"></div>
+        </section>
+
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

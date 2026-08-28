@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NEXUS // SYSTEM LIFE DASHBOARD v3.0</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="dashboard-grid">
+
+    <!-- 1. HEADER & SYSTEM CONTROL BAR -->
+    <header class="card header-card">
+      <div class="greeting-box">
+        <span class="system-tag">◈ TERMINAL_SESSION // ACTIVE</span>
+        <h1 id="greeting-text">GOOD MORNING, OPERATOR</h1>
+        <p id="date-display">LOADING SYSTEM DATE...</p>
+      </div>
+      <div class="header-right">
+        <button id="open-settings-btn" class="btn btn-outline">[⚙ CONFIG & BACKUP]</button>
+        <div class="clock-box">
+          <div id="clock-display" class="digital-clock">00:00:00</div>
+          <div class="pulse-bar"><span class="pulse-dot"></span> SYSTEM SYNCED</div>
+        </div>
+      </div>
+    </header>
+
+    <!-- 2. DIAGRAM & METRICS MATRIX -->
+    <section class="card progress-card">
+      <div class="card-header">
+        <h2>[◈] OVERALL METRICS & PROGRESS RING</h2>
+      </div>
+      <div class="progress-content">
+        <div class="diagram-container">
+          <svg class="progress-ring" width="130" height="130">
+            <circle class="progress-ring-bg" stroke-width="8" r="52" cx="65" cy="65"/>
+            <circle id="diagram-ring" class="progress-ring-circle" stroke-width="8" r="52" cx="65" cy="65"/>
+          </svg>
+          <div class="diagram-percentage" id="diagram-percent-text">0%</div>
+        </div>
+
+        <div class="metrics-details">
+          <div class="bar-container">
+            <div class="bar-label">
+              <span>SYSTEM DIRECTIVE COMPLETION</span>
+              <span id="progress-fraction">0 / 0 TASKS</span>
+            </div>
+            <div class="track">
+              <div id="progress-fill" class="fill" style="width: 0%;"></div>
+            </div>
+          </div>
+          <div class="stats-mini-grid">
+            <div class="mini-stat">
+              <span class="label">ACTIVE</span>
+              <span id="stat-pending" class="val">0</span>
+            </div>
+            <div class="mini-stat">
+              <span class="label">COMPLETED</span>
+              <span id="stat-completed" class="val">0</span>
+            </div>
+            <div class="mini-stat">
+              <span class="label">DUE TODAY</span>
+              <span id="stat-due-today" class="val">0</span>
+            </div>
+            <div class="mini-stat">
+              <span class="label">SYSTEM YIELD</span>
+              <span id="stat-yield" class="val">0%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. FOCUS TIMER -->
+    <section class="card timer-card">
+      <div class="card-header">
+        <h2>[⏱] FOCUS CYCLER</h2>
+        <div class="timer-modes">
+          <button id="mode-focus" class="mode-btn active">FOCUS</button>
+          <button id="mode-break" class="mode-btn">BREAK</button>
+        </div>
+      </div>
+      <div class="timer-display" id="timer-display">25:00</div>
+      <div class="timer-controls">
+        <button id="timer-start" class="btn btn-primary">START</button>
+        <button id="timer-stop" class="btn">STOP</button>
+        <button id="timer-reset" class="btn">RESET</button>
+      </div>
+    </section>
+
+    <!-- 4. DAILY HABITS / ROUTINE TRACKER (NEW FEATURE) -->
+    <section class="card habits-card">
+      <div class="card-header">
+        <h2>[⚡] DAILY ROUTINES & HABITS</h2>
+        <span class="version-tag" id="habit-completion-tag">0/0 DONE</span>
+      </div>
+      <form id="habit-form" class="input-row">
+        <input type="text" id="habit-input" placeholder="New daily routine..." required autocomplete="off" />
+        <button type="submit" class="btn btn-primary">+ ADD</button>
+      </form>
+      <div id="habits-list" class="habits-list"></div>
+    </section>
+
+    <!-- 5. TASK MATRIX WITH DEADLINES & SEARCH -->
+    <section class="card tasks-card">
+      <div class="card-header">
+        <h2>[≡] GRANULAR DIRECTIVES MATRIX</h2>
+        <span class="version-tag">TOTAL: <span id="total-task-count">0</span></span>
+      </div>
+
+      <!-- Search & Filters Bar -->
+      <div class="filter-controls-bar">
+        <input type="text" id="task-search-input" placeholder="🔍 Search directives..." autocomplete="off" />
+        <div class="filter-tabs">
+          <button class="tab-btn active" data-filter="all">ALL</button>
+          <button class="tab-btn" data-filter="active">ACTIVE</button>
+          <button class="tab-btn" data-filter="due">DUE TODAY</button>
+          <button class="tab-btn" data-filter="completed">EXECUTED</button>
+        </div>
+      </div>
+
+      <!-- Task Input Form with Due Date -->
+      <form id="task-form" class="task-input-grid">
+        <input type="text" id="task-input" placeholder="Enter directive title..." required autocomplete="off" />
+        <select id="task-category">
+          <option value="CORE">CORE</option>
+          <option value="DEV">DEV</option>
+          <option value="INTEL">INTEL</option>
+          <option value="LIFE">LIFE</option>
+        </select>
+        <input type="date" id="task-due-date" title="Set Target Deadline" />
+        <button type="submit" class="btn btn-primary">INITIALIZE</button>
+      </form>
+
+      <div id="task-list" class="task-list"></div>
+    </section>
+
+    <!-- 6. QUICK LINKS MANAGER -->
+    <section class="card links-card">
+      <div class="card-header">
+        <h2>[🔗] QUICK LINKS</h2>
+      </div>
+
+      <form id="link-form" class="input-row">
+        <input type="text" id="link-name-input" placeholder="Title" required autocomplete="off" />
+        <input type="url" id="link-url-input" placeholder="https://..." required autocomplete="off" />
+        <button type="submit" class="btn btn-primary">ADD LINK</button>
+      </form>
+
+      <div id="links-grid" class="links-grid"></div>
+    </section>
+
+    <!-- 7. SYSTEM SCRATCHPAD -->
+    <section class="card scratchpad-card">
+      <div class="card-header">
+        <h2>[📝] TERMINAL SCRATCHPAD</h2>
+        <span class="version-tag" id="scratchpad-counter">0 CHARS</span>
+      </div>
+      <textarea id="scratchpad" placeholder="Type quick notes, thoughts, or system logs..."></textarea>
+    </section>
+
+  </div>
+
+  <!-- SETTINGS & DATA MODAL -->
+  <div id="settings-modal" class="modal-overlay hidden">
+    <div class="modal-content card">
+      <div class="card-header">
+        <h2>[⚙] SYSTEM CONFIGURATION & DATA</h2>
+        <button id="close-settings-btn" class="btn-icon">×</button>
+      </div>
+      <form id="settings-form">
+        <div class="form-group">
+          <label for="cfg-operator-name">OPERATOR NAME</label>
+          <input type="text" id="cfg-operator-name" required />
+        </div>
+        <div class="form-group-row">
+          <div class="form-group">
+            <label for="cfg-focus-time">FOCUS TIME (MIN)</label>
+            <input type="number" id="cfg-focus-time" min="1" max="180" required />
+          </div>
+          <div class="form-group">
+            <label for="cfg-break-time">BREAK TIME (MIN)</label>
+            <input type="number" id="cfg-break-time" min="1" max="60" required />
+          </div>
+        </div>
+        <div class="form-group-checkbox">
+          <input type="checkbox" id="cfg-sound-toggle" />
+          <label for="cfg-sound-toggle">ENABLE AUDIO NOTIFICATIONS</label>
+        </div>
+
+        <div class="modal-divider"></div>
+        <span class="system-tag">// DATA BACKUP & RESTORE</span>
+
+        <div class="data-actions-row">
+          <button type="button" id="export-data-btn" class="btn">EXPORT JSON</button>
+          <label for="import-file" class="btn btn-outline import-label">IMPORT JSON</label>
+          <input type="file" id="import-file" accept=".json" class="hidden" />
+        </div>
+
+        <div class="modal-actions">
+          <button type="button" id="purge-data-btn" class="btn btn-danger">PURGE ALL</button>
+          <button type="submit" class="btn btn-primary">SAVE CONFIG</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
